@@ -13,18 +13,18 @@ import javax.persistence.Embeddable;
 public class Conta {
 	
 	@Column(name= "conta_numero")
-	private Long numer;
+	private Long numero;
 	
 	@Column(name= "conta_saldo")
 	private Double saldo;
 	
 	
 	
-	public Long getNumer() {
-		return numer;
+	public Long getNumero() {
+		return numero;
 	}
-	public void setNumer(Long numer) {
-		this.numer = numer;
+	public void setNumero(Long numer) {
+		this.numero = numer;
 	}
 	public Double getSaldo() {
 		return saldo;
